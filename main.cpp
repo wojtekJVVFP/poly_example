@@ -39,7 +39,7 @@ public:
     }
     virtual float oblicz_pole()
     {
-        cout<<"Pole prostokąta wynosi: "<<wys*szer;
+        cout<<"Pole czworokąta wynosi: "<<wys*szer;
         return wys*szer;
     }
 
