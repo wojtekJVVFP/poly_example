@@ -117,7 +117,7 @@ int main()
     File_out plik1("hello.txt");
     string s;
 
-    cout<<"Wpisz tekst: ";
+    cout<<"Podaj tekst: ";
     cin>>s;
 
     Terminal_out term1(s.c_str());
