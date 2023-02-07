@@ -122,15 +122,14 @@ int main()
 
     Terminal_out term1(s.c_str());
 
-    Terminal_out* a = new Terminal_out[2];
+    //Terminal_out* a = new Terminal_out[2];
+    Out* a[] = {&plik1, &term1};
 
 //Mamy listę obiektów
 
-    a[0] = term1;
-
     for(int i=0; i<2; i++)
     {
-//       wypisz_obiekt(a[i]);
+        wypisz_obiekt(a[i]);
     }
 
     return 0;
